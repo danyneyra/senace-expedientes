@@ -41,18 +41,14 @@ pip install -r requirements.txt
 senace-expedientes/
 ├── src/
 │   ├── api/
-│   │   ├── __init__.py
 │   │   └── senace_client.py
 │   ├── scrapers/
-│   │   ├── __init__.py
 │   │   └── pdf_scraper.py
-│   └── utils/
-│       ├── __init__.py
-│       └── file_handler.py
 ├── downloads/
 ├── requirements.txt
 ├── .gitignore
 ├── config.py
+├── app.py
 └── README.md
 ```
 
