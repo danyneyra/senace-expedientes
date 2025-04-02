@@ -6,11 +6,8 @@ import re
 client = SenaceClient(API_BASE_URL)
 
 # Obtener sectores y tipos de estudio
-sectores = client.get_sectors()
-tipos_estudio = client.get_tipos_estudio()
-
-print(sectores)
-print(tipos_estudio)
+# sectores = client.get_sectors()
+# tipos_estudio = client.get_tipos_estudio()
 
 # Buscar proyectos
 proyectos = client.search_projects(sector="Energía y Minas", fecha_inicio='2020-01-01', estado="Aprobado", nombre_proyecto="Exploración")

@@ -16,8 +16,3 @@ TEMP_DIR.mkdir(exist_ok=True)
 API_BASE_URL = "https://services6.arcgis.com/JveWadtaHNLCMyKC/arcgis/rest/services/IGA_SENACE_WEB/FeatureServer/20/query"
 API_PDF_URL = "http://ceropapel.senace.gob.pe/share/proxy/alfresco-noauth/api/internal/shared/node/"
 API_TIMEOUT = 30  # segundos
-
-# Configuración de descarga
-MAX_CONCURRENT_DOWNLOADS = 3
-RETRY_ATTEMPTS = 3
-RETRY_DELAY = 5  # segundos
